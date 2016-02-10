@@ -1,8 +1,10 @@
 # compareInputs
-Javascript that compares all inputs in a page, check their values and return all the changed ones in array.
+A Q&D Javascript file that compares all inputs in a page, check their values and return all the changed ones in an array.
 
-####The code has still to be improved :
+The fields to be compared have a key based on ids, but the script can be changed to use a special attribute for this.
+
+####The code has still to be improved but if it can be of an use I'm glad.
 <ul>
-<li>Create input query function as a handler function used in both cases (initial and new)</li>
-<li>Make sure this function gets both ids, names, class, etc, (concatenate) as primary key (id in arrays) to have all inputs</li>
+<li>Create inputs query function as a helper function used in both cases (former and new)</li>
+
 </ul>
